@@ -1,66 +1,43 @@
-* {
-    background-color: lavender;
-    text-align: center;}
-
-.italic {
-    font-style: italic;}
-
-.bold {
-    font-weight: bold;}
-
 body {
-    background-color: lavender;
     font-family: Arial, sans-serif;
-    color: indigo;
-    text-align: center;}
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: pink;
+  }
 
-header {
-    margin-top: 20px;
-    padding: 20px;}
+  .container {
+    display: flex;
+    margin: 20px auto;
+    background-color: white;
+    border: 10px solid #ffffff00;
+    text-align: center;
+  }
 
-header img {
-    border-radius: 50%;
-    border: 3px solid purple;}
-
-.content h3 {
-    color: darkviolet;}
-
-.content p {
-    text-align: justify;
-    margin: 20px;
-    color: indigo;}
-
-ul {
-    list-style-type: square;
-    padding-left: 20px;
-    color: darkviolet;}
-
-ul li {
-    margin: 10px 0;
-    border-color: purple;
-    border-width: 0.5cm;}
-
-a {
-    color: blueviolet;
-    text-decoration: none;}
-
-a:hover {
-    text-decoration: underline;
-    color: purple;}
-
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    background-color: thistle;
-    color: indigo;}
-
-div {
-    border-style: solid;
-    border-width: 4px 2px 0px 2px;
-    border-color: blueviolet;
-}
+  .content {
+    width: 65%;
+    padding: 30px;
+    box-sizing: border-box;
+  }
 
 
-  
+  .content h3 {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+
+  .content section {
+    margin-bottom: 30px;
+  }
+
+  .content p {
+    line-height: 1.6;
+    font-size: 14px;
+    color: #555;
+  }
+
+
+ 
 
   
